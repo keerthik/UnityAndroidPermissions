@@ -75,4 +75,14 @@ public class AndroidPermissionsManager
     {
         GetPermissionsService().Call("RequestPermissionAsync", GetActivity(), permissionNames, callback);
     }
+
+    public static bool ShouldShowRequestPermission(string permissionName)
+    {
+        return GetPermissionsService().Call<bool>("ShouldShowRequestPermission", GetActivity(), permissionName);
+    }
+
+    public static void GoToAppSettings()
+    {
+        GetPermissionsService().Call("GoToAppSettings", GetActivity());
+    }
 }
