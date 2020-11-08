@@ -1,0 +1,18 @@
+{
+  "name": "com.activetheoryinc.androidpermissions",
+  "version": "1.0.0",
+  "displayName": "Unity Android Runtime Permissions",
+  "description": "This provides callback Java interfaces for C# to interact with native Android system permissions",
+  "unity": "2020.1",
+  "dependencies": {},
+  "keywords": [
+    "bitgym",
+    "android",
+    "permissions"
+  ],
+  "author": {
+    "name": "active theory inc",
+    "email": "keerthik@bitgym.com",
+    "url": "https://www.activetheoryinc.com/developer/"
+  }
+}
